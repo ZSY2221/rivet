@@ -1,0 +1,45 @@
+{
+  "experiment": "mask_privacy_ablation",
+  "B": 4096,
+  "lambda": 128,
+  "trials_per_point": 200000,
+  "ablated_mask_sweep": [
+    {
+      "M": 8192,
+      "M_over_B": 2.0,
+      "theory_advantage": 0.12499237107110162,
+      "empirical_advantage": 0.125985,
+      "trials": 200000
+    },
+    {
+      "M": 40960,
+      "M_over_B": 10.0,
+      "theory_advantage": 0.024999694827943994,
+      "empirical_advantage": 0.026294999999999957,
+      "trials": 200000
+    },
+    {
+      "M": 409600,
+      "M_over_B": 100.0,
+      "theory_advantage": 0.0024999969482459128,
+      "empirical_advantage": 0.0018249999999999655,
+      "trials": 200000
+    },
+    {
+      "M": 40960000,
+      "M_over_B": 10000.0,
+      "theory_advantage": 2.4999999694824222e-05,
+      "empirical_advantage": -0.0008199999999999874,
+      "trials": 200000
+    }
+  ],
+  "full_mask_single_coordinate": {
+    "M": 1393796574908163946345982392040522594123776,
+    "theory_advantage": 7.346839692639297e-40
+  },
+  "full_mask_vector": {
+    "d": 24,
+    "M": 33451117797795934712303577408972542258970624,
+    "theory_advantage": 3.0611832052663735e-41
+  }
+}

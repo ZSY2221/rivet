@@ -1,0 +1,6 @@
+{
+  "experiment": "hash_recompute_ablation",
+  "d_test": 24,
+  "ablation_attack_succeeded": true,
+  "full_protocol_attack_blocked": true
+}

@@ -1,0 +1,4 @@
+CONFIG d=10000 L=16 k=128 rtt_ms=10
+online_s=1.15394 online_one_party_mb=1.30936 online_rounds=71
+offline_s=4206.46 offline_one_party_mb=13518 offline_rounds=472750
+end_to_end_s=4207.7 end_to_end_server_total_mb=27038.7

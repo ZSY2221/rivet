@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
+cd "$root"
+python_bin=${RIVET_PYTHON:-$root/.venv/bin/python}
+"$python_bin" training/run_training.py "$@"

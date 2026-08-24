@@ -1,0 +1,8 @@
+MP-SPDZ commit: 6a2256e327b507918859f605735543bb32a39d9d
+libOTe commit: 1264725c3f08c2acaed70b2f3f67a68f38c53012
+mascot-party.x SHA-256: 7217cdc6289b2980565d0fe28531051824f5f61f5841e45ce04b38b0c330ce14
+Ubuntu: 22.04.2 LTS
+Clang: 14.0.0
+Python: 3.10.12
+CMake: 3.22.1
+Boost: 1.83.0

@@ -1,0 +1,22 @@
+[package]
+name = "rivet-crypto-bench"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "client_commitment_benchmark"
+path = "src/client_commitment_benchmark.rs"
+
+[[bin]]
+name = "server_binding_benchmark"
+path = "src/server_binding_benchmark.rs"
+
+[dependencies]
+ark-bls12-381 = "0.4"
+ark-ec = "0.4"
+ark-std = { version = "0.4", features = ["std"] }
+rayon = "1"
+
+[profile.release]
+opt-level = 3
+lto = true

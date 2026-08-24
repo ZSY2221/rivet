@@ -1,0 +1,15 @@
+/target/
+/rust/target/
+/MP-SPDZ/
+__pycache__/
+*.pyc
+*.log
+!mpc/results/*.log
+data/
+datasets/
+/results/
+/figures/
+.env
+.venv/
+*.key
+*.pem

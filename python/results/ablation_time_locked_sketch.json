@@ -1,0 +1,11 @@
+{
+  "experiment": "time_locked_sketch_ablation",
+  "d": 1024,
+  "L": 8,
+  "k": 16,
+  "q_sk": 4,
+  "trials": 5000,
+  "adaptive_evasion_rate": 1.0,
+  "non_adaptive_evasion_rate": 0.6084,
+  "theoretical_miss_probability": 0.6059370882290803
+}

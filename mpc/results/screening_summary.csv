@@ -1,0 +1,5 @@
+d,L,k_sk,rtt_ms,online_s,online_one_party_mb,online_server_total_mb,online_rounds,offline_s,offline_one_party_mb,offline_rounds,end_to_end_s,end_to_end_server_total_mb,source_log
+10000,16,128,10.0,1.15394,1.30936,2.61872,71,4206.46,13518.0,472750,4207.7,27038.7,rivet_screen-10000-16-128_rtt10ms.log
+10000,16,128,1.0,0.596161,1.30936,2.61872,71,456.43,13518.0,472750,457.066,27038.7,rivet_screen-10000-16-128_rtt1ms.log
+100000,16,128,10.0,7.8238,12.492,24.984,83,41928.1,134674.0,4726970,41936.3,269373.0,rivet_screen-100000-16-128_rtt10ms.log
+100000,16,128,1.0,9.14464,12.492,24.984,83,4528.68,134674.0,4726970,4538.23,269373.0,rivet_screen-100000-16-128_rtt1ms.log

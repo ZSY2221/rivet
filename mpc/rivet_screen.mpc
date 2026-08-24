@@ -1,0 +1,21 @@
+program.use_edabit(True)
+d = int(program.args[1])
+L = int(program.args[2])
+k_sk = int(program.args[3])
+B = 4096
+T_norm_sq = d * 1024
+T_sk = k_sk * 1024
+x = sint(1, size=d)
+lower_ok = x >= -B
+upper_ok = x <= B
+range_passes = lower_ok.sum() + upper_ok.sum()
+norm_sq = (x * x).sum()
+norm_ok = norm_sq <= T_norm_sq
+sketch_passes = sint(0)
+for ell in range(L):
+    y = sint(ell + 1, size=k_sk)
+    energy = (y * y).sum()
+    sketch_passes += energy <= T_sk
+range_passes.reveal_to(0)
+norm_ok.reveal_to(0)
+sketch_passes.reveal_to(0)

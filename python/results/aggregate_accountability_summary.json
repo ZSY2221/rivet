@@ -1,0 +1,9 @@
+{
+  "d_test": 24,
+  "n_test": 10,
+  "trials_per_forge_scenario": 100,
+  "honest_baseline_accepted": true,
+  "forge_G_only_false_accept_rate": 0.0,
+  "forge_R_only_false_accept_rate": 0.0,
+  "forge_both_false_accept_rate": 0.0
+}

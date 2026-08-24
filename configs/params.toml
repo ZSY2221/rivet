@@ -1,0 +1,43 @@
+[security]
+lambda = 128
+
+[vector]
+d = 100000
+
+[fixed_point]
+s = 1024
+C = 4.0
+B = 4096
+
+[participants]
+N = 100
+N_max = 100
+
+[mask]
+scale_bits = 128
+
+[sketch.benchmark]
+L = 8
+k = 16
+q_sk = 4
+T_sk = 1048576
+
+[sketch.training]
+L = 16
+k = 128
+q_sk = 4
+
+[training]
+clients = 100
+mnist_rounds = 100
+cifar10_rounds = 50
+batch_size = 64
+learning_rate = 0.1
+local_epochs = 1
+norm_inflation = 20.0
+concentrated_coordinates = 20
+malicious_fractions = [0.0, 0.1, 0.2, 0.3]
+dirichlet_alpha = [0.1, 0.5]
+seeds = [0, 1, 2, 3]
+samples_per_client = 200
+minimum_accepted = 5

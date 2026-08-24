@@ -1,0 +1,86 @@
+{
+  "d_test": 24,
+  "n_test": 30,
+  "m_min": 5,
+  "trials_per_rate": 20,
+  "dropout_rate_sweep": [
+    {
+      "dropout_p": 0.0,
+      "mean_R_t_size": 30.0,
+      "expected_R_t_size_approx": 30.0,
+      "abort_count": 0,
+      "verify_all_ok": true,
+      "n_verify_trials": 20
+    },
+    {
+      "dropout_p": 0.1,
+      "mean_R_t_size": 24.25,
+      "expected_R_t_size_approx": 24.3,
+      "abort_count": 0,
+      "verify_all_ok": true,
+      "n_verify_trials": 20
+    },
+    {
+      "dropout_p": 0.2,
+      "mean_R_t_size": 19.2,
+      "expected_R_t_size_approx": 19.200000000000003,
+      "abort_count": 0,
+      "verify_all_ok": true,
+      "n_verify_trials": 20
+    },
+    {
+      "dropout_p": 0.3,
+      "mean_R_t_size": 13.85,
+      "expected_R_t_size_approx": 14.699999999999998,
+      "abort_count": 0,
+      "verify_all_ok": true,
+      "n_verify_trials": 20
+    },
+    {
+      "dropout_p": 0.5,
+      "mean_R_t_size": 7.15,
+      "expected_R_t_size_approx": 7.5,
+      "abort_count": 2,
+      "verify_all_ok": true,
+      "n_verify_trials": 18
+    }
+  ],
+  "single_side_dropout": {
+    "delivery_plan": {
+      "0": [
+        true,
+        true
+      ],
+      "1": [
+        true,
+        true
+      ],
+      "2": [
+        true,
+        false
+      ],
+      "3": [
+        false,
+        true
+      ],
+      "4": [
+        false,
+        false
+      ],
+      "5": [
+        false,
+        false
+      ]
+    },
+    "R_t_actual": [
+      0,
+      1
+    ],
+    "R_t_expected": [
+      0,
+      1
+    ],
+    "aggregate_verify_ok": true,
+    "matches_theorem7": true
+  }
+}

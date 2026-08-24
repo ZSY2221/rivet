@@ -1,0 +1,8 @@
+{
+  "experiment": "merkle_membership_ablation",
+  "d_test": 16,
+  "n_honest_this_round": 5,
+  "ablation_replay_accepted": true,
+  "full_protocol_replay_blocked": true,
+  "full_protocol_accepted_members": 5
+}
